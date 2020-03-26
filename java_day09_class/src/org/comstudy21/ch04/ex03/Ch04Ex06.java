@@ -7,7 +7,7 @@ public class Ch04Ex06 {
 	public static final int MAX = 100;
 	People pArr[] = new People[MAX];
 	private int top = 0; // 삭제시 감소한다
-	private int sequence = 0; // 객체가 생성될때 감소 없이 계속 증가 idx에 사용
+	private int sequence = 1; // 객체가 생성될때 감소 없이 계속 증가 idx에 사용
 	public static final Scanner sc = new Scanner(System.in);
 
 	public Ch04Ex06() {
@@ -25,6 +25,7 @@ public class Ch04Ex06 {
 			input();
 			break;
 		case 2:
+			System.out.println("출력기능...");
 			output();
 			break;
 		case 3:
@@ -76,7 +77,6 @@ public class Ch04Ex06 {
 	}
 
 	public void output() {
-		System.out.println("출력기능...");
 		// pArr의 요소를 top까지 반복해서 출력한다.
 		for (People p : pArr) {
 			if (p == null)

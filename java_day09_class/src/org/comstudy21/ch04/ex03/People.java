@@ -44,6 +44,6 @@ public class People {
 
 	@Override
 	public String toString() {
-		return "[+idx + "," + name + "," + phone+]";
+		return "["+idx + "," + name + "," + phone+"]";
 	}
 }
