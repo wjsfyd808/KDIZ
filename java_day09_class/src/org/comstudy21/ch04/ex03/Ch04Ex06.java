@@ -30,12 +30,15 @@ public class Ch04Ex06 {
 			break;
 		case 3:
 			System.out.println("검색기능..");
+			search();
 			break;
 		case 4:
 			System.out.println("수정기능..");
+			revise();
 			break;
 		case 5:
 			System.out.println("삭제기능..");
+			delete();
 			break;
 		case 6:
 			System.out.println("종료..");
@@ -83,6 +86,25 @@ public class Ch04Ex06 {
 				break;
 			System.out.println(p);
 		}
+	}
+
+	public void search() {
+		People sear = new People();
+		System.out.println("이름으로 찾기 입력: ");
+		sear.setName(sc.next());
+		for (int i = 0; i < pArr.length; i++) {
+			if () {
+
+			}
+		}
+	}
+
+	public void revise() {
+
+	}
+
+	public void delete() {
+
 	}
 
 	public static void main(String[] args) {
