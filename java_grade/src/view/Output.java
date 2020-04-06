@@ -2,12 +2,8 @@ package view;
 
 public class Output implements View {
 
-	public Output() {
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
 	public void result() {
+		System.out.println("결과 출력");
 	}
 
 }

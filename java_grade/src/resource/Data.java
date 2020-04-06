@@ -1,8 +1,10 @@
 package resource;
 
+import model.Dto;
+
 public class Data {
 	public int no;
-	public String score;	
-	public String [] Score;
+	public Dto score;	
+	public Dto [] Score;
 
 }

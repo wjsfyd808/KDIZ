@@ -1,7 +1,7 @@
 package resource;
 
 import java.util.Scanner;
-
+import model.Dao;
 import view.*;
 
 public interface R {
@@ -13,10 +13,13 @@ public interface R {
 	List list = new List();
 	Avg avg = new Avg();
 	Sum sum = new Sum();
+	Input input = new Input();
+	Output output = new Output();
 	
 	Scanner sc = new Scanner(System.in);
 	
 	Data data = new Data();
+	Dao dao = Dao.getInstance();
 
 	void result();
 			
